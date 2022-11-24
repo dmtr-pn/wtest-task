@@ -46,7 +46,6 @@ button:focus {
     width: 100%;
     min-height: 450px;
     object-fit: cover;
-
 }
 
 .nav-font {
@@ -106,7 +105,10 @@ button:focus {
 
 @media (max-width: 576px) {
     .logo__img {
-        width: 52.3%;
+        width: 70.3%;
+    }
+    .logo__ {
+        max-width: 250px;
     }
     .mission {
         font-size: 18px!important;
@@ -324,3 +326,45 @@ button:focus {
     font-size: 14px;
     margin-bottom: 5px;
 }
+.aaa {
+    
+}
+.smth {
+    width: 300px;
+	padding: 16px;
+	position: absolute;
+    text-align: center;
+	color: #f0f0f0;
+	left: -50px;
+    top: 470px;
+    overflow: hidden;
+	transform: rotate(-45deg);
+	background-color: #e43;
+}
+
+.flag__wrap {
+    position: relative;
+}  
+.flag__box {
+    left: 0px;
+    position: absolute;
+    top: 0px;
+    height: 250px;
+    width: 250px;
+    overflow: hidden;
+} 
+.flag__text {
+    color: #fff;
+    left: -50px;
+    position: absolute;
+    top: 32px;
+
+    height: 30px;
+    width: 206px;
+
+    background-color: rgb(255, 76, 76);
+    box-shadow: 10px 10px 19px -1px rgba(34, 60, 80, 0.2);
+
+    text-align: center;
+    transform: rotate(-45deg);
+}    
